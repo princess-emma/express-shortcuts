@@ -1,6 +1,6 @@
 {
 	"name": "express-shortcuts",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"description": "Shortcuts for Express.JS",
 	"main": "dist/cjs",
 	"module": "dist/esm/index.js",
