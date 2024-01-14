@@ -6,3 +6,24 @@ The package is aviable in the [npm registry](https://npmjs.com/package/express-s
 ```
 npm i express-shortcuts
 ```
+## Examples
+There are two ways to use the library.
+### Import what you need
+Import only the functions needed on each file.
+```js
+const { send } = require('express-shortcuts');
+
+app.get('/', send('Hello!'));
+```
+### Save the functions on the global variable
+Import once at the start and use the functions everywhere.
+```js
+// index.js
+require('express-shortcuts')._inject();
+
+// hi.js
+app.get('/hi', send('hi'));
+
+// bye.js
+app.get('/bye', render('bye_page'));
+```

@@ -1,6 +1,6 @@
 {
 	"name": "express-shortcuts",
-	"version": "1.1.0",
+	"version": "2.0.0",
 	"description": "Shortcuts for Express.JS",
 	"main": "dist/cjs",
 	"module": "dist/esm/index.js",
@@ -16,20 +16,20 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/Alladeila/express-shortcuts.git"
+		"url": "git+https://github.com/emslay/express-shortcuts.git"
 	},
 	"keywords": [
 		"express",
 		"shortcuts",
 		"nodejs"
 	],
-	"author": "Alladeila",
+	"author": "emslay",
 	"license": "Apache-2.0",
 	"bugs": {
-		"url": "https://github.com/Alladeila/express-shortcuts/issues"
+		"url": "https://github.com/emslay/express-shortcuts/issues"
 	},
-	"homepage": "https://github.com/Alladeila/express-shortcuts#readme",
-	"dependencies": {
-		"@types/express": "^4.17.17"
+	"homepage": "https://github.com/emslay/express-shortcuts#readme",
+	"devDependencies": {
+		"@types/express": "^4.17.21"
 	}
 }
